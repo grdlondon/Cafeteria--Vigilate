@@ -11,28 +11,38 @@ body{
     background-color: #fff4f0;
     
 }
- 
+ /*imagem principal*/
 img{
     border: solid;
     border-color: #fa643f;
+    display: block 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    
 }
-     
+    
+
+
 /*Titulo Cafeteria*/
 h1{
     font-size: 60px;
     color: chocolate;
+    margin-bottom: 40px;
+    margin-left: 300px;
     
 }
 /*Sub Titulo cafeteria*/
 h2{
     font-size: 30px;
     color: rgb(216, 160, 6);
+    margin-left: 300px;
+    margin-bottom: 20px;
     
 }
 
-.img{
-    border-radius: 20px;
-}
+   
+   
 /*Seu especialista em café*/
 h3{
     font-size: 30px;
@@ -55,7 +65,7 @@ p{
  /*três sequencias de fotos+ botões*/
  .container{
     background-color: #fa643f ;
-    border-radius: 3px;
+    
     color: azure;
     border-color: #fa643f;
     margin-top: 20px;
@@ -73,14 +83,17 @@ span{
   }
 /*Foto chicara central Preta*/
  .boxwrap{
-
-    width: 10px;
-    height: 350p
-    
+    display: block 20px;
+margin-left: auto;
+margin-right: auto;
+margin-left: 20px;
+   
+  
+        
  }
 
 
- 
+ /* não somos uma cafeteria */
  h2{
     font-size: 20px;
     
@@ -94,6 +107,10 @@ span{
  transform: scale(1.1);
  }
 
+
+    
+
+
  .login{
     display: flex;
     flex-direction: column;
@@ -104,10 +121,16 @@ padding: 30px;
 gap: 15px;
 justify-content: center;
 align-items: center;
+cursor: pointer;
 
  }
 
  input{
     width: 300px;
- }
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
