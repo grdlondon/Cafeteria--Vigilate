@@ -12,8 +12,10 @@
         background-color: #ebdd67f1;
         border: 0px;
         border-color: blue;
-        
-    }
+       }
+
+       
+    
     /*imagem principal*/
     img{
         border: solid;
@@ -152,3 +154,22 @@
     justify-content: center;
     margin-left: 40px;
     }
+
+   
+    
+
+
+@media screen and (max-width:760px){
+
+
+}
+
+   
+@media screen and (max-width:600px){
+
+
+}
+
+        
+    
+
