@@ -1,136 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
 
-}
-body{
-    background-color: #fff4f0;
+    }
+    body{
+
+        background-color: #ebdd67f1;
+        border: 0px;
+        border-color: blue;
+        
+    }
+    /*imagem principal*/
+    img{
+        border: solid;
+        display: block 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 20px;
+        cursor: pointer;
+    }
     
-}
- /*imagem principal*/
-img{
-    border: solid;
-    border-color: #fa643f;
-    display: block 20px;
+
+    /*Titulo Cafeteria*/
+    h1{
+        font-size: 60px;
+        color: rgba(153, 101, 6, 0.938);
+        margin-bottom: 10px;
+        margin-left: 300px;
+
+    
+    }
+    /*Sub Titulo cafeteria*/
+    h2{
+        font-size: 30px;
+        color: rgba(105, 78, 4, 0.856);
+        margin-left: 338px;
+        margin-bottom: 20px;
+        
+    }
+    .box2{
+    padding: 30px;
+    margin-left: 05px;
+
+        
+    }
+   
+    /*Seu especialista em café*/
+    h3{
+        font-size: 30px;
+        color: rgba(105, 78, 4, 0.856);
+        padding: 30px;
+        margin-left: 150px;
+    }
+    /*como os herois*/
+    p{
+        color: rgba(105, 78, 4, 0.856);
+        font-size: 20px;
+        margin-bottom: 20px;
+    line-height: 30px;
+        padding: 30px;
+    }
+
+    .boxtwo{
+        display: flex;
+        
+    }
+    /*três sequencias de fotos+ botões*/
+    .container{
+        color: rgb(143, 105, 34);
+        margin-top: 20px;
+        margin-right: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+    span{
+        padding: 10px;
+    }
+    .boxwrap{
+        display: flex;
+    }
+    /*Foto chicara central Preta*/
+    .boxwrap{
+        display: block 20px;
     margin-left: auto;
     margin-right: auto;
     margin-left: 20px;
-    
-}
-    
+    transition: all0.3s;;
+
+            
+    }
 
 
-/*Titulo Cafeteria*/
-h1{
-    font-size: 60px;
-    color: chocolate;
-    margin-bottom: 40px;
-    margin-left: 300px;
-    
-}
-/*Sub Titulo cafeteria*/
-h2{
-    font-size: 30px;
-    color: rgb(216, 160, 6);
-    margin-left: 300px;
-    margin-bottom: 20px;
-    
-}
+    /* não somos uma cafeteria */
+    h2{
+        font-size: 20px;
+        padding-left: 20px;
+    }
 
-   
-   
-/*Seu especialista em café*/
-h3{
-    font-size: 30px;
-    color: chocolate;
-    padding: 30px;
-}
-/*como os herois*/
-p{
-    color: rgb(185, 121, 2);
-    font-size: 20px;
-    margin-bottom: 20px;
- line-height: 30px;
-    padding: 30px;
- }
+    .firstimage{
+    transition: all 0.3s;
+    }
 
- .boxtwo{
-    display: flex;
-    
- }
- /*três sequencias de fotos+ botões*/
- .container{
-    background-color: #fa643f ;
-    
-    color: azure;
-    border-color: #fa643f;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    .firstimage:hover{
+    transform: scale(1.1);
+    }
 
-  }
-span{
-    padding: 10px;
-}
-  .boxwrap{
-    display: flex;
-  }
-/*Foto chicara central Preta*/
- .boxwrap{
-    display: block 20px;
-margin-left: auto;
-margin-right: auto;
-margin-left: 20px;
-   
-  
+
         
- }
 
 
- /* não somos uma cafeteria */
- h2{
-    font-size: 20px;
-    
- }
+    .login{
 
- .firstimage{
- transition: all 0.3s;
- }
-
- .firstimage:hover{
- transform: scale(1.1);
- }
-
-
-    
-
-
- .login{
-    display: flex;
-    flex-direction: column;
-width: 350px;
-height: auto;
-background-color: #fa643f;;
-padding: 30px;
-gap: 15px;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-
- }
-
- input{
-    width: 300px;
-    
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+    width: 350px;
+    height: auto;
+    background-color: #ec892dde;;
+    padding: 30px;
+    gap: 15px;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
 
-}
 
+
+    }
+
+    form{
+    display: flex;
+    justify-content: center;
+    }
+    input{
+        width: 300px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    footer h2{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    }
