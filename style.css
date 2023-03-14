@@ -10,21 +10,44 @@
     body{
 
         background-color: #ebdd67f1;
-        border: 0px;
-        border-color: blue;
+        
+        
+    
        }
+       .container2{
+        padding: 20px 9%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
+       }
        
     
     /*imagem principal*/
-    img{
-        border: solid;
-        display: block 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: 20px;
-        cursor: pointer;
+    .boximg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    
+
+    
+        
+        
     }
+    
+    .boximag{
+        transition: all 0.3s;
+        }
+    
+        .boximag:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        }
+        
+    
     
 
     /*Titulo Cafeteria*/
@@ -32,17 +55,18 @@
         font-size: 60px;
         color: rgba(153, 101, 6, 0.938);
         margin-bottom: 10px;
-        margin-left: 300px;
-
+        margin-left: 30px;
+        text-align: center;
     
     }
     /*Sub Titulo cafeteria*/
     h2{
         font-size: 30px;
         color: rgba(105, 78, 4, 0.856);
-        margin-left: 338px;
+        margin-left: 38px;
         margin-bottom: 20px;
-        
+        text-align: center;
+    
     }
     .box2{
     padding: 30px;
@@ -69,39 +93,44 @@
 
     .boxtwo{
         display: flex;
+        justify-content: center;
+        text-align: center;
         
     }
     /*três sequencias de fotos+ botões*/
-    .container{
+    .boxwrap3{
         color: rgb(143, 105, 34);
-        margin-top: 20px;
-        margin-right: 65px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+                margin-left: 240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+             padding: 30px;
+             
 
     }
 
 
     span{
         padding: 10px;
+        
     }
     .boxwrap{
         display: flex;
     }
     /*Foto chicara central Preta*/
     .boxwrap{
-        display: block 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 20px;
-    transition: all0.3s;;
-
-            
+     display: block 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 30px;    
     }
 
-
+     .container4{
+        padding: 30px;
+     }
     /* não somos uma cafeteria */
     h2{
         font-size: 20px;
@@ -131,7 +160,7 @@
     gap: 15px;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    
 
 
 
