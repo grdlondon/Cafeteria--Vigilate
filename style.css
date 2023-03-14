@@ -9,7 +9,7 @@
     }
     body{
 
-        background-color: #ebdd67f1;
+        background-color: #e6d85cd2;
         
         
     
@@ -53,7 +53,7 @@
     /*Titulo Cafeteria*/
     h1{
         font-size: 60px;
-        color: rgba(153, 101, 6, 0.938);
+        color: rgba(14, 13, 12, 0.938);
         margin-bottom: 10px;
         margin-left: 30px;
         text-align: center;
@@ -62,7 +62,7 @@
     /*Sub Titulo cafeteria*/
     h2{
         font-size: 30px;
-        color: rgba(105, 78, 4, 0.856);
+        color: rgba(17, 17, 16, 0.952);
         margin-left: 38px;
         margin-bottom: 20px;
         text-align: center;
@@ -78,13 +78,13 @@
     /*Seu especialista em café*/
     h3{
         font-size: 30px;
-        color: rgba(105, 78, 4, 0.856);
+        color: rgb(10, 10, 10);
         padding: 30px;
         margin-left: 150px;
     }
     /*como os herois*/
     p{
-        color: rgba(105, 78, 4, 0.856);
+        color: rgb(7, 7, 7);
         font-size: 20px;
         margin-bottom: 20px;
     line-height: 30px;
@@ -99,7 +99,7 @@
     }
     /*três sequencias de fotos+ botões*/
     .boxwrap3{
-        color: rgb(143, 105, 34);
+        color: rgb(20, 20, 20);
                 margin-left: 240px;
             display: flex;
             justify-content: center;
