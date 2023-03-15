@@ -29,6 +29,6 @@ HOME:
 O café torna nossas vidas mais alegres. Estamos aqui para tornar a sua experiência com o melhor café.
 
 
-Deploy:https://grdlondon.github.io/Cafeteria--Vigilate/
+Deploy: https://grdlondon.github.io/Cafeteria--Vigilate/
            
-
+Github: https://github.com/grdlondon/Cafeteria--Vigilate/blob/main/README.md
