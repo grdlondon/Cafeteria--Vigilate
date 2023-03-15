@@ -27,5 +27,8 @@ HOME:
 ![foto da ultima pagina + legenda](https://user-images.githubusercontent.com/119904806/224888738-ada7a725-57e3-4c59-822b-0c915af2273b.png)
 
 O café torna nossas vidas mais alegres. Estamos aqui para tornar a sua experiência com o melhor café.
+
+
+Deploy:https://grdlondon.github.io/Cafeteria--Vigilate/
            
 
